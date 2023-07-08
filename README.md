@@ -38,9 +38,9 @@ A machine-learning based application which predicts the thyroid type out of the 
 
 3. Understood seasonality, trend and variability of Sales-margin for each individual supplier over a 10-year period to understand their behaviour pattern, in order to make better buisness decisions regarding inventory managemnet and competitive inteliigence.
 
-<a href="https://sagar61205.github.io/Sales-margin-forecast" class="button">More on project page...</a>
+<p align="center"><a href="https://sagar61205.github.io/Sales-margin-forecast" class="button">More on project page...</a></p>
 
-<<H2 align="center"> Air traffic assistance system</H2>
+<H2 align="center"> Air traffic assistance system</H2>
 
 ![visibility](https://github.com/sagar61205/portfolio/assets/5305547/8ba24ef2-a9ab-4ce9-90ca-4593c932e994)
 
