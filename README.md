@@ -11,7 +11,7 @@
 
 A machine-learning based application which predicts the thyroid type out of the 4 classes - "negative", "compensated hypothyroid", "primary hypothyroid", "secondary hypothyroid” using various thyroid tests such as 'TSH', 'T3', 'TT4' etc., where negative class means no thyroid related condition.
 
-
+<a href="https://sagar61205.github.io/Thyroid-detection" class="button">More on project page...</a>
 
 
 ## Sales-margin forecast
@@ -23,15 +23,22 @@ A machine-learning based application which predicts the thyroid type out of the 
 
 3. Understood seasonality, trend and variability of Sales-margin for each individual supplier over a 10-year period to understand their behaviour pattern, in order to make better buisness decisions regarding inventory managemnet and competitive inteliigence.
 
+<a href="https://sagar61205.github.io/Sales-margin-forecast" class="button">More on project page...</a>
+
 ## Air traffic assistance system
 ![visibility](https://github.com/sagar61205/portfolio/assets/5305547/8ba24ef2-a9ab-4ce9-90ca-4593c932e994)
 
 A machine-learning based website which calculates visibility of the airports by weighing in various parameters such as DryBulb temperature, Wind speed, Relative humidity etc.
 
+<a href="https://sagar61205.github.io/Air-traffic-assistance-system" class="button">More on project page...</a>
+
+
 ## Sports calorie tracker
 ![gym and sports](https://github.com/sagar61205/portfolio/assets/5305547/7505433f-75ad-40d2-8529-ab168924cca8)
 
 A statistical and machine-learning based calorie calculating application by using parameters such as TotalSteps, TotalDistance, VeryActiveDistance etc.
+
+<a href="https://sagar61205.github.io/Gym-and-sports-calorie-tracker/" class="button">More on project page...</a>
 
 ## Sagar Virmani's Data Science and AI portfolio
 ### Please reach out to me if you have any questions on the LinkedIn/GitHub.
