@@ -1,4 +1,5 @@
-# <p align="center"> Sagar Virmani</p>
+<H1 align="center">Sagar Virmani</H1>
+
 ![Screenshot from 2023-07-09 02-55-49](https://github.com/sagar61205/portfolio/assets/5305547/78892370-9516-47f9-b4a9-3d5f7adab11c)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/sagar-virmani/)
 [![GitHub Badge](https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/sagar61205)
