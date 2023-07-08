@@ -6,13 +6,13 @@
 ![Screenshot from 2023-07-09 03-25-24](https://github.com/sagar61205/portfolio/assets/5305547/1e377235-517b-4bad-9114-1dc792d7a32d)
 
 <ul>
-<li>With around 3 years of experience in data science and more than 5 years of experience in muliple domains such as finance and IT, I specialize in working with large and complex datasets while collaborating with cross-functional teams to uncover patterns and insights, and build predictive models that drive business growth.</li>
+<li>With around 3 years of experience in data science and more than 5 years of experience in muliple domains such as finance and IT, I specialize in working with large and complex datasets while collaborating with cross-functional teams to uncover patterns and insights, and build predictive models that drive business growth.</li><br/>
 
-<li>I provide business solutions by building end-to-end data science project pipelines using Python, statistical analysis, machine learning, time-series forecasting, and deep learning.</li>
+<li>I provide business solutions by building end-to-end data science project pipelines using Python, statistical analysis, machine learning, time-series forecasting, and deep learning.</li><br/>
 
-<li>I am a data scientist who's always looking to push the boundaries of what's possible with data. Whether it's experimenting with cutting-edge machine learning algorithms or exploring new data sources, I thrive on finding innovative solutions to business problems.</li>
+<li>I am a data scientist who's always looking to push the boundaries of what's possible with data. Whether it's experimenting with cutting-edge machine learning algorithms or exploring new data sources, I thrive on finding innovative solutions to business problems.</li><br/>
 
-<li>As a data scientist, I enjoy using my obsessive attention to detail, my unequivocal love for making things that change the world and make a difference.</li>
+<li>As a data scientist, I enjoy using my obsessive attention to detail, my unequivocal love for making things that change the world and make a difference.</li><br/>
 </ul>
 
 
