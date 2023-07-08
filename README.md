@@ -19,13 +19,14 @@
 ![Screenshot from 2023-07-09 03-21-54](https://github.com/sagar61205/portfolio/assets/5305547/4692e3df-a341-4448-9a5c-89d905a5844e)
 
 
+
 <H2 align="center"> Thyroid Detection</H2>
 
 ![thyroid](https://github.com/sagar61205/portfolio/assets/5305547/f6e3e3e1-5511-45bc-9e7a-b36977ce928c)
 
 A machine-learning based application which predicts the thyroid type out of the 4 classes - "negative", "compensated hypothyroid", "primary hypothyroid", "secondary hypothyroid” using various thyroid tests such as 'TSH', 'T3', 'TT4' etc., where negative class means no thyroid related condition.
 
-<a href="https://sagar61205.github.io/Thyroid-detection" class="button">More on project page...</a>
+<p align="center"><a href="https://sagar61205.github.io/Thyroid-detection" class="btn btn-primary btn-lg">More on project page...</a></p>
 
 
 <H2 align="center"> Sales-margin forecast</H2>
@@ -46,7 +47,7 @@ A machine-learning based application which predicts the thyroid type out of the 
 
 A machine-learning based website which calculates visibility of the airports by weighing in various parameters such as DryBulb temperature, Wind speed, Relative humidity etc.
 
-<a href="https://sagar61205.github.io/Air-traffic-assistance-system" class="button">More on project page...</a>
+<p align="center"><a href="https://sagar61205.github.io/Air-traffic-assistance-system" class="button">More on project page...</a></p>
 
 
 <H2 align="center"> Sports calorie tracker </H2>
@@ -55,7 +56,7 @@ A machine-learning based website which calculates visibility of the airports by 
 
 A statistical and machine-learning based calorie calculating application by using parameters such as TotalSteps, TotalDistance, VeryActiveDistance etc.
 
-<a href="https://sagar61205.github.io/Gym-and-sports-calorie-tracker/" class="button">More on project page...</a>
+<p align="center"><a href="https://sagar61205.github.io/Gym-and-sports-calorie-tracker/" class="button">More on project page...</a></p>
 
 ## Sagar Virmani's Data Science and AI portfolio
 ### Please reach out to me if you have any questions on the LinkedIn/GitHub. 
