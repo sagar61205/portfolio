@@ -6,7 +6,7 @@
 ![Screenshot from 2023-07-09 03-25-24](https://github.com/sagar61205/portfolio/assets/5305547/1e377235-517b-4bad-9114-1dc792d7a32d)
 
 <ul>
-<li>With around 3 years of experience in data science and more than 5 years of experience in muliple domains such as finance and IT, I specialize in working with large and complex datasets while collaborating with cross-functional teams to uncover patterns and insights, and build predictive models that drive business growth.</li><br/>
+<li>With around 3 years of experience in data science and more than 5 years of total experience in muliple domains such as finance, IT and healthcare, I specialize in working with large and complex datasets while collaborating with cross-functional teams to uncover patterns and insights, and build predictive models that drive business growth.</li><br/>
 
 <li>I provide business solutions by building end-to-end data science project pipelines using Python, statistical analysis, machine learning, time-series forecasting, and deep learning.</li><br/>
 
