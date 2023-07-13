@@ -22,7 +22,7 @@
 
 <H2 align="center"> Thyroid Detection</H2>
 
-![thyroid](https://github.com/sagar61205/portfolio/assets/5305547/f6e3e3e1-5511-45bc-9e7a-b36977ce928c)
+<a href="https://sagar61205.github.io/Thyroid-detection" class="btn btn-primary btn-lg">![thyroid](https://github.com/sagar61205/portfolio/assets/5305547/f6e3e3e1-5511-45bc-9e7a-b36977ce928c)</a>
 
 A machine-learning based application which predicts the thyroid type out of the 4 classes - "negative", "compensated hypothyroid", "primary hypothyroid", "secondary hypothyroid” using various thyroid tests such as 'TSH', 'T3', 'TT4' etc., where negative class means no thyroid related condition.
 
