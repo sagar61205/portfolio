@@ -31,7 +31,7 @@ A machine-learning based application which predicts the thyroid type out of the 
 
 <H2 align="center"> Sales-margin forecast</H2>
 
-![sales forecast](https://github.com/sagar61205/portfolio/assets/5305547/79002454-ec1e-4e0c-a760-cc2ab56555c1)
+<a href="https://sagar61205.github.io/Sales-margin-forecast" class="button">![sales forecast](https://github.com/sagar61205/portfolio/assets/5305547/79002454-ec1e-4e0c-a760-cc2ab56555c1)</a>
 
 1. Determined whether there are detectable trends in Sales-Margin values at a supplier or overall(all suppliers) level over a 10-year period.
 
@@ -43,7 +43,7 @@ A machine-learning based application which predicts the thyroid type out of the 
 
 <H2 align="center"> Air traffic assistance system</H2>
 
-![visibility](https://github.com/sagar61205/portfolio/assets/5305547/8ba24ef2-a9ab-4ce9-90ca-4593c932e994)
+<a href="https://sagar61205.github.io/Air-traffic-assistance-system" class="button">![visibility](https://github.com/sagar61205/portfolio/assets/5305547/8ba24ef2-a9ab-4ce9-90ca-4593c932e994)</a>
 
 A machine-learning based website which calculates visibility of the airports by weighing in various parameters such as DryBulb temperature, Wind speed, Relative humidity etc.
 
@@ -52,7 +52,7 @@ A machine-learning based website which calculates visibility of the airports by 
 
 <H2 align="center"> Sports calorie tracker </H2>
 
-![gym and sports](https://github.com/sagar61205/portfolio/assets/5305547/7505433f-75ad-40d2-8529-ab168924cca8)
+<a href="https://sagar61205.github.io/Gym-and-sports-calorie-tracker/" class="button">![gym and sports](https://github.com/sagar61205/portfolio/assets/5305547/7505433f-75ad-40d2-8529-ab168924cca8)</a>
 
 A statistical and machine-learning based calorie calculating application by using parameters such as TotalSteps, TotalDistance, VeryActiveDistance etc.
 
