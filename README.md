@@ -31,7 +31,7 @@ A machine-learning based application which predicts the thyroid type out of the 
 
 <H2 align="center"> Sales-forecast</H2>
 
-<a href="https://sagar61205.github.io/Sales-margin-forecast" class="button">![sales forecast](https://sagar61205.github.io/Sales-forecast/)</a>
+<a href="https://sagar61205.github.io/Sales-margin-forecast" class="button">https://github.com/sagar61205/Sales-forecast/issues/1#issue-1739958641</a>
 
 1. Determined whether there are detectable trends in Sales-Margin values at a supplier or overall(all suppliers) level over a 10-year period.
 
