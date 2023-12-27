@@ -3,7 +3,7 @@
 ![Screenshot from 2023-07-09 02-55-49](https://github.com/sagar61205/portfolio/assets/5305547/78892370-9516-47f9-b4a9-3d5f7adab11c)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/sagar-virmani/)
 [![GitHub Badge](https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/sagar61205)
-![Screenshot from 2023-07-09 03-25-24](https://github.com/sagar61205/portfolio/assets/5305547/1e377235-517b-4bad-9114-1dc792d7a32d)
+
 
 <ul>
 <li>With around 3 years of experience in data science and more than 5 years of total experience in muliple domains such as finance, IT and healthcare, I specialize in working with large and complex datasets while collaborating with cross-functional teams to uncover patterns and insights, and build predictive models that drive business growth.</li><br/>
@@ -29,9 +29,9 @@ A machine-learning based application which predicts the thyroid type out of the 
 <p align="center"><a href="https://sagar61205.github.io/Thyroid-detection" class="btn btn-primary btn-lg">More on project page...</a></p>
 
 
-<H2 align="center"> Sales-margin forecast</H2>
+<H2 align="center"> Sales-forecast</H2>
 
-<a href="https://sagar61205.github.io/Sales-margin-forecast" class="button">![sales forecast](https://github.com/sagar61205/portfolio/assets/5305547/79002454-ec1e-4e0c-a760-cc2ab56555c1)</a>
+<a href="https://sagar61205.github.io/Sales-margin-forecast" class="button">![sales forecast](https://sagar61205.github.io/Sales-forecast/)</a>
 
 1. Determined whether there are detectable trends in Sales-Margin values at a supplier or overall(all suppliers) level over a 10-year period.
 
