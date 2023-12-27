@@ -27,11 +27,13 @@
 A machine-learning based application which predicts the thyroid type out of the 4 classes - "negative", "compensated hypothyroid", "primary hypothyroid", "secondary hypothyroid” using various thyroid tests such as 'TSH', 'T3', 'TT4' etc., where negative class means no thyroid related condition.
 
 <p align="center"><a href="https://sagar61205.github.io/Thyroid-detection" class="btn btn-primary btn-lg">More on project page...</a></p>
-
+![newplot (2)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d)
 
 <H2 align="center"> Sales-forecast</H2>
 
-<a href="https://sagar61205.github.io/Sales-forecast/" class="button">![243136802-1a4481f4-9c66-46b9-a11f-67fdad064bd8](https://github.com/sagar61205/Sales-forecast/assets/5305547/066ced5e-cabb-4c5c-acd9-0dda5da58a9d)</a>
+![newplot (2)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d)
+
+<a href="https://sagar61205.github.io/Sales-forecast/" class="btn btn-primary btn-lg">![sales-forecast](https://github.com/sagar61205/portfolio/assets/5305547/243136849-aa6339a8-20b4-4f69-8741-e5de399fbaff)</a>
 
 1. Determined whether there are detectable trends in Sales-Margin values at a supplier or overall(all suppliers) level over a 10-year period.
 
