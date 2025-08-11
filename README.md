@@ -6,7 +6,7 @@
 
 
 <ul>
-<li>With around 3 years of experience in data science and more than 5 years of total experience in muliple domains such as finance, IT and healthcare, I specialize in working with large and complex datasets while collaborating with cross-functional teams to uncover patterns and insights, and build predictive models that drive business growth.</li><br/>
+<li>With around 5 years of experience in data science and more than 7 years of total experience in muliple domains such as finance, IT and healthcare, I specialize in working with large and complex datasets while collaborating with cross-functional teams to uncover patterns and insights, and build predictive models that drive business growth.</li><br/>
 
 <li>I provide business solutions by building end-to-end data science project pipelines using Python, statistical analysis, machine learning, time-series forecasting, and deep learning.</li><br/>
 
