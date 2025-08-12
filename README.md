@@ -66,7 +66,7 @@ A statistical and machine-learning based calorie calculating application by usin
   <img 
     src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white" 
     alt="LinkedIn"
-    width="180"
+    width="70"
   />
 </a>
 
@@ -74,8 +74,7 @@ A statistical and machine-learning based calorie calculating application by usin
   <img 
     src="https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=GitHub&logoColor=white"
     alt="GitHub"
-    width="180"
+    width="90"
   />
 </a>
-[![GitHub Badge](https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/sagar61205)
 
