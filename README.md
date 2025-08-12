@@ -74,7 +74,7 @@ A statistical and machine-learning based calorie calculating application by usin
   <img 
     src="https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=GitHub&logoColor=white"
     alt="GitHub"
-    width="90"
+    width="70"
   />
 </a>
 
