@@ -61,7 +61,21 @@ A statistical and machine-learning based calorie calculating application by usin
 <p align="center"><a href="https://sagar61205.github.io/Gym-and-sports-calorie-tracker/" class="button">More on project page...</a></p>
 
 ## Sagar Virmani's Data Science and AI portfolio
-### Reach out to me on LinkedIn/GitHub. 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/sagar-virmani/)
+### Reach out to me on LinkedIn/GitHub: 
+<a href="https://linkedin.com/in/sagar-virmani/">
+  <img 
+    src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white" 
+    alt="LinkedIn"
+    width="180"
+  />
+</a>
+
+<a href="https://github.com/sagar61205">
+  <img 
+    src="https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=GitHub&logoColor=white"
+    alt="GitHub"
+    width="180"
+  />
+</a>
 [![GitHub Badge](https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/sagar61205)
 
