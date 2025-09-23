@@ -19,9 +19,11 @@ With **5+ years in data science** and **7+ years total experience** across finan
 
 | Metric | Achievement |
 |--------|-------------|
-| **Sales Forecast Accuracy** | **+15%** improvement |
+| **Sales increment** | **+5.3%** improvement |
 | **Manual Effort Reduction** | **20%** decrease in manual processes |
-| **Model Accuracy** | **86%** prediction accuracy in production |
+| **Forecast error reduction** | **>80%** forecast error reduction in production |
+| **Customer churn reduction** | **31%** customer churn reduction |
+| **Model Accuracy** | **86%** prediction accuracy in production 
 | **Production Deployments** | **5+** end-to-end ML systems deployed |
 
 ---
