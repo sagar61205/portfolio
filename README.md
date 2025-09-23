@@ -1,80 +1,91 @@
-<H1 align="center">Sagar Virmani</H1>
+# Sagar Virmani
+### Senior Data Scientist | MLOps Specialist
 
-![Screenshot from 2023-07-09 02-55-49](https://github.com/sagar61205/portfolio/assets/5305547/78892370-9516-47f9-b4a9-3d5f7adab11c)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/sagar-virmani/)
-[![GitHub Badge](https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/sagar61205)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white)](https://linkedin.com/in/sagar-virmani/)
+[![GitHub Badge](https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/sagar61205)
+[![Portfolio Badge](https://img.shields.io/badge/📁_Portfolio-8A2BE2?style=for-the-badge)](https://sagar61205.github.io/)
 
+---
 
-<ul>
-<li>With around 5 years of experience in data science and more than 7 years of total experience in muliple domains such as finance, IT and healthcare, I specialize in working with large and complex datasets while collaborating with cross-functional teams to uncover patterns and insights, and build predictive models that drive business growth.</li><br/>
+## 🚀 About Me
 
-<li>I provide business solutions by building end-to-end data science project pipelines using Python, statistical analysis, machine learning, time-series forecasting, and deep learning.</li><br/>
+With **5+ years in data science** and **7+ years total experience** across finance, IT, and healthcare, I specialize in building end-to-end ML systems that deliver measurable business impact. I bridge the gap between data science and engineering, focusing on **production-grade MLOps solutions**.
 
-<li>I am a data scientist who's always looking to push the boundaries of what's possible with data. Whether it's experimenting with cutting-edge machine learning algorithms or exploring new data sources, I thrive on finding innovative solutions to business problems.</li><br/>
+**Core Expertise:** Python • Machine Learning • MLOps • Time Series • Statistical Analysis • Deep Learning
 
-<li>As a data scientist, I enjoy using my obsessive attention to detail, my unequivocal love for making things that change the world and make a difference.</li><br/>
-</ul>
+---
 
+## 📊 Business Impact
 
-![Screenshot from 2023-07-09 03-21-54](https://github.com/sagar61205/portfolio/assets/5305547/4692e3df-a341-4448-9a5c-89d905a5844e)
+| Metric | Achievement |
+|--------|-------------|
+| **Sales Forecast Accuracy** | **+15%** improvement |
+| **Manual Effort Reduction** | **20%** decrease in manual processes |
+| **Model Accuracy** | **86%** prediction accuracy in production |
+| **Production Deployments** | **5+** end-to-end ML systems deployed |
 
+---
 
+## 💼 Featured Case Studies
 
-<H2 align="center"> Thyroid Detection</H2>
+### 🧠 Sales Probability Engine
+**Production MLOps system boosting forecast accuracy by 15%**
 
-<a href="https://sagar61205.github.io/Thyroid-detection" class="btn btn-primary btn-lg">![thyroid](https://github.com/sagar61205/portfolio/assets/5305547/f6e3e3e1-5511-45bc-9e7a-b36977ce928c)</a>
+`Python` `Kubernetes` `MLflow` `HMM` `Salesforce API`
 
-A machine-learning based application which predicts the thyroid type out of the 4 classes - "negative", "compensated hypothyroid", "primary hypothyroid", "secondary hypothyroid” using various thyroid tests such as 'TSH', 'T3', 'TT4' etc., where negative class means no thyroid related condition.
+Transformed subjective sales forecasts into a data-driven probability engine through a scalable MLOps pipeline with real-time monitoring and retraining.
 
-<p align="center"><a href="https://sagar61205.github.io/Thyroid-detection" class="btn btn-primary btn-lg">More on project page...</a></p>
+**[View Case Study →](https://sagar61205.github.io/MLOps-Salesforce-Deal-Closure-Probability-System/)**
 
+---
 
-<H2 align="center"> Sales-forecast</H2>
+### 📈 Sequential Sales Forecasting  
+**Hidden Markov Models predicting deal outcomes with 86% accuracy**
 
-![newplot (2)](https://github.com/sagar61205/Buy-margin-forecast/assets/5305547/e7ebfc50-1724-4fad-8f05-e2d12eaa157d)
+`Python` `HMMlearn` `Scikit-learn` `Pandas` `Time Series`
 
-<a href="https://sagar61205.github.io/Sales-forecast/" class="btn btn-primary btn-lg">![sales-forecast](https://github.com/sagar61205/portfolio/assets/5305547/243136849-aa6339a8-20b4-4f69-8741-e5de399fbaff)</a>
+Leveraged sequence modeling to decode sales stage progression patterns, handling non-linear and variable-velocity sales cycles.
 
-1. Determined whether there are detectable trends in Sales-Margin values at a supplier or overall(all suppliers) level over a 10-year period.
+**[View Case Study →](https://sagar61205.github.io/Sales-forecast/)**
 
-2. Built forecast models to predict Sales-margin percentages for the year 2022-2023.
+---
 
-3. Understood seasonality, trend and variability of Sales-margin for each individual supplier over a 10-year period to understand their behaviour pattern, in order to make better buisness decisions regarding inventory managemnet and competitive inteliigence.
+### 🏥 Thyroid Detection System
+**Interpretable classifier achieving 99% accuracy for clinical support**
 
-<p align="center"><a href="https://sagar61205.github.io/Sales-forecast/" class="button">More on project page...</a></p>
+`Python` `XGBoost` `SHAP` `Imbalanced-Learn` `Healthcare`
 
-<H2 align="center"> Air traffic assistance system</H2>
+Built a transparent ML system for early diagnosis assistance with full model interpretability using SHAP analysis.
 
-<a href="https://sagar61205.github.io/Air-traffic-assistance-system" class="button">![visibility](https://github.com/sagar61205/portfolio/assets/5305547/8ba24ef2-a9ab-4ce9-90ca-4593c932e994)</a>
+**[View Case Study →](https://sagar61205.github.io/Thyroid-detection/)**
 
-A machine-learning based website which calculates visibility of the airports by weighing in various parameters such as DryBulb temperature, Wind speed, Relative humidity etc.
+---
 
-<p align="center"><a href="https://sagar61205.github.io/Air-traffic-assistance-system" class="button">More on project page...</a></p>
+## 🛠️ Technical Skills
 
+**Machine Learning:** Scikit-learn, XGBoost, HMM, Time Series Forecasting, Deep Learning  
+**MLOps & DevOps:** Kubernetes, Docker, MLflow, Airflow, CI/CD  
+**Programming:** Python, SQL, PySpark  
+**Cloud & Tools:** AWS, Git, Jupyter, Pandas, NumPy  
+**Data Visualization:** Matplotlib, Seaborn, Plotly, SHAP  
 
-<H2 align="center"> Sports calorie tracker </H2>
+---
 
-<a href="https://sagar61205.github.io/Gym-and-sports-calorie-tracker/" class="button">![gym and sports](https://github.com/sagar61205/portfolio/assets/5305547/7505433f-75ad-40d2-8529-ab168924cca8)</a>
+## 📈 GitHub Stats
 
-A statistical and machine-learning based calorie calculating application by using parameters such as TotalSteps, TotalDistance, VeryActiveDistance etc.
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=sagar61205&show_icons=true&theme=radical)
 
-<p align="center"><a href="https://sagar61205.github.io/Gym-and-sports-calorie-tracker/" class="button">More on project page...</a></p>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sagar61205&layout=compact&theme=radical)
 
-## Sagar Virmani's Data Science and AI portfolio
-### Reach out to me on LinkedIn/GitHub: 
-<a href="https://linkedin.com/in/sagar-virmani/">
-  <img 
-    src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white" 
-    alt="LinkedIn"
-    width="70"
-  />
-</a>
+---
 
-<a href="https://github.com/sagar61205">
-  <img 
-    src="https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=GitHub&logoColor=white"
-    alt="GitHub"
-    width="70"
-  />
-</a>
+## 📫 Let's Connect
 
+- **LinkedIn:** [sagar-virmani](https://linkedin.com/in/sagar-virmani/)
+- **GitHub:** [sagar61205](https://github.com/sagar61205)
+- **Portfolio:** [sagar61205.github.io](https://sagar61205.github.io/)
+- **Email:** [your.email@example.com](mailto:your.email@example.com)
+
+---
+
+*Open to new opportunities and collaborations in data science and MLOps.*
