@@ -124,32 +124,88 @@
             text-decoration: none;
             font-weight: 500;
             transition: transform 0.3s ease;
+            border: none;
+            cursor: pointer;
         }
         
         .btn:hover {
             transform: translateY(-2px);
         }
         
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
+        .contact-form {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
         }
         
-        .stat-item {
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            display: none;
+        }
+        
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            display: none;
+        }
+        
+        .direct-email {
             text-align: center;
+            margin: 20px 0;
             padding: 20px;
-            background: #f8f9fa;
+            background: #e3f2fd;
             border-radius: 10px;
         }
         
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: bold;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        .direct-email a {
+            color: #1976d2;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .direct-email a:hover {
+            text-decoration: underline;
         }
         
         footer {
@@ -189,8 +245,11 @@
                 <a href="https://github.com/sagar61205">
                     <img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
                 </a>
-                <a href="mailto:your.email@example.com">
+                <a href="#contact">
                     <img src="https://img.shields.io/badge/📧_Contact-00C851?style=for-the-badge" alt="Email">
+                </a>
+                <a href="mailto:sagar61205@gmail.com">
+                    <img src="https://img.shields.io/badge/✉️_Email_Direct-D14836?style=for-the-badge" alt="Direct Email">
                 </a>
             </div>
         </section>
@@ -199,7 +258,6 @@
         <section class="section">
             <h2>🌟 About Me</h2>
             <p>Data Scientist with <strong>5+ years</strong> of experience building <strong>production-grade ML systems</strong> that deliver measurable business impact. I specialize in <strong>end-to-end MLOps solutions</strong> that transform complex data into actionable insights and scalable deployments.</p>
-            <p><strong>💡 Core Philosophy:</strong> <em>"If you can't deploy it, it doesn't count."</em></p>
         </section>
 
         <!-- Business Impact -->
@@ -329,11 +387,100 @@
             </table>
         </section>
 
+        <!-- Contact Form -->
+        <section class="section" id="contact">
+            <h2>📧 Get In Touch</h2>
+            
+            <div class="direct-email">
+                <p>Prefer to email directly? <a href="mailto:sagar61205@gmail.com">sagar61205@gmail.com</a></p>
+            </div>
+
+            <div class="contact-form">
+                <div class="success-message" id="successMessage">
+                    ✅ Thank you for your message! I'll get back to you soon at sagar61205@gmail.com.
+                </div>
+                <div class="error-message" id="errorMessage">
+                    ❌ There was an error sending your message. Please email me directly at sagar61205@gmail.com
+                </div>
+                
+                <!-- Formspree Form - Replace with your actual Formspree endpoint -->
+                <form id="contactForm" action="https://formspree.io/f/mjvqqgzj" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
         <footer>
             <p><strong>🌍 Open to opportunities worldwide</strong> | <strong>💼 Available for full-time & contract roles</strong></p>
-            <p style="margin-top: 20px;"><em>"Data is the new oil, but AI is the refinery that turns it into value."</em></p>
+            <p style="margin-top: 20px;">📧 <strong>Email:</strong> <a href="mailto:sagar61205@gmail.com">sagar61205@gmail.com</a></p>
             <p style="margin-top: 30px;">© 2024 Sagar Virmani | Senior Data Scientist & MLOps Specialist</p>
         </footer>
     </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitButton = this.querySelector('button[type="submit"]');
+            const originalText = submitButton.textContent;
+            
+            // Show loading state
+            submitButton.textContent = 'Sending...';
+            submitButton.disabled = true;
+            
+            try {
+                const formData = new FormData(this);
+                
+                // Send to Formspree
+                const response = await fetch(this.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                
+                if (response.ok) {
+                    // Show success message
+                    document.getElementById('successMessage').style.display = 'block';
+                    document.getElementById('errorMessage').style.display = 'none';
+                    
+                    // Reset form
+                    this.reset();
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        document.getElementById('successMessage').style.display = 'none';
+                    }, 5000);
+                } else {
+                    throw new Error('Form submission failed');
+                }
+            } catch (error) {
+                // Show error message
+                document.getElementById('errorMessage').style.display = 'block';
+                document.getElementById('successMessage').style.display = 'none';
+            } finally {
+                // Reset button
+                submitButton.textContent = originalText;
+                submitButton.disabled = false;
+            }
+        });
+    </script>
 </body>
 </html>
