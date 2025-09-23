@@ -102,3 +102,8 @@ https://img.shields.io/badge/%F0%9F%8C%90_View_Full_Portfolio-FF6B6B?style=for-t
 
 "Data is the new oil, but AI is the refinery that turns it into value."
 </div>
+
+<div align="center">
+
+© 2025 Sagar Virmani | Senior Data Scientist & MLOps Specialist
+</div> ```
