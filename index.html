@@ -1,484 +1,155 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sagar Virmani - Senior Data Scientist</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            background-attachment: fixed;
-        }
-        
-        .container {
-            background: white;
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            margin: 20px 0;
-        }
-        
-        .hero {
-            text-align: center;
-            padding: 40px 0;
-        }
-        
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        
-        .hero p {
-            font-size: 1.3rem;
-            color: #666;
-            margin-bottom: 20px;
-        }
-        
-        .badges {
-            margin: 20px 0;
-        }
-        
-        .badges a {
-            margin: 0 10px;
-            text-decoration: none;
-        }
-        
-        .section {
-            margin: 40px 0;
-        }
-        
-        .section h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-            border-left: 5px solid #667eea;
-            padding-left: 15px;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        
-        th, td {
-            padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        
-        th {
-            background: #f8f9fa;
-            font-weight: 600;
-        }
-        
-        .project {
-            background: #f8f9fa;
-            padding: 25px;
-            border-radius: 10px;
-            margin: 20px 0;
-            border-left: 4px solid #667eea;
-        }
-        
-        .project h3 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        
-        .tech-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin: 15px 0;
-        }
-        
-        .tech-tag {
-            background: #e3f2fd;
-            color: #1976d2;
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-        
-        .btn {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 12px 25px;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: 500;
-            transition: transform 0.3s ease;
-            border: none;
-            cursor: pointer;
-        }
-        
-        .btn:hover {
-            transform: translateY(-2px);
-        }
-        
-        .contact-form {
-            background: #f8f9fa;
-            padding: 30px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        
-        .form-group {
-            margin-bottom: 20px;
-        }
-        
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: 600;
-            color: #2c3e50;
-        }
-        
-        .form-group input,
-        .form-group textarea {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid #e0e0e0;
-            border-radius: 5px;
-            font-size: 1rem;
-            transition: border-color 0.3s ease;
-        }
-        
-        .form-group input:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-        
-        .form-group textarea {
-            height: 120px;
-            resize: vertical;
-        }
-        
-        .success-message {
-            background: #d4edda;
-            color: #155724;
-            padding: 15px;
-            border-radius: 5px;
-            margin: 20px 0;
-            display: none;
-        }
-        
-        .error-message {
-            background: #f8d7da;
-            color: #721c24;
-            padding: 15px;
-            border-radius: 5px;
-            margin: 20px 0;
-            display: none;
-        }
-        
-        .direct-email {
-            text-align: center;
-            margin: 20px 0;
-            padding: 20px;
-            background: #e3f2fd;
-            border-radius: 10px;
-        }
-        
-        .direct-email a {
-            color: #1976d2;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-        }
-        
-        .direct-email a:hover {
-            text-decoration: underline;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 40px 0;
-            color: #666;
-            border-top: 1px solid #eee;
-            margin-top: 40px;
-        }
-        
-        @media (max-width: 768px) {
-            .container {
-                padding: 20px;
-                margin: 10px;
-            }
-            
-            .hero h1 {
-                font-size: 2rem;
-            }
-            
-            table {
-                font-size: 0.9rem;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Hero Section -->
-        <section class="hero">
-            <h1>Sagar Virmani</h1>
-            <p>Senior Data Scientist | MLOps Specialist | Driving Revenue based Business Growth with AI</p>
-            <div class="badges">
-                <a href="https://linkedin.com/in/sagar-virmani/">
-                    <img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-                </a>
-                <a href="https://github.com/sagar61205">
-                    <img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-                </a>
-                <a href="#contact">
-                    <img src="https://img.shields.io/badge/📧_Contact-00C851?style=for-the-badge" alt="Email">
-                </a>
-                <a href="mailto:sagar61205@gmail.com">
-                    <img src="https://img.shields.io/badge/✉️_Email_Direct-D14836?style=for-the-badge" alt="Direct Email">
-                </a>
-            </div>
-        </section>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sagar Virmani - Senior Data Scientist</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        <!-- About Section -->
-        <section class="section">
-            <h2>🌟 About Me</h2>
-            <p>Senior Data Scientist with <strong>5+ years</strong> of experience building <strong>revenue-driving ML systems</strong> through scalable MLOps infrastructure. I specialize in <strong>production-grade AI solutions</strong> that transform complex data into measurable business growth and direct financial impact.</p>
-        </section>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background-attachment: fixed;
+    }
 
-        <!-- Business Impact -->
-        <section class="section">
-            <h2>📈 Business Impact & Metrics</h2>
-            <table>
-                <tr>
-                    <th>Metric</th>
-                    <th>Achievement</th>
-                    <th>Impact Level</th>
-                </tr>
-                <tr>
-                    <td><strong>Sales Increment</strong></td>
-                    <td><strong>+5.3% improvement</strong></td>
-                    <td>🟢 Direct Revenue</td>
-                </tr>
-                <tr>
-                    <td><strong>Manual Effort Reduction</strong></td>
-                    <td><strong>20% decrease</strong></td>
-                    <td>🟡 Operational Efficiency</td>
-                </tr>
-                <tr>
-                    <td><strong>Forecast Error Reduction</strong></td>
-                    <td><strong>>80% reduction</strong></td>
-                    <td>🟢 Strategic Planning</td>
-                </tr>
-                <tr>
-                    <td><strong>Customer Churn Reduction</strong></td>
-                    <td><strong>31% reduction</strong></td>
-                    <td>🔴 Retention Critical</td>
-                </tr>
-                <tr>
-                    <td><strong>Model Accuracy</strong></td>
-                    <td><strong>86% prediction accuracy</strong></td>
-                    <td>🟢 Production Reliability</td>
-                </tr>
-                <tr>
-                    <td><strong>Production Deployments</strong></td>
-                    <td><strong>5+ end-to-end systems</strong></td>
-                    <td>🟡 Scalable Infrastructure</td>
-                </tr>
-            </table>
-        </section>
+    .container {
+      background: white;
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      width: 100%;
+    }
 
-        <!-- Projects -->
-        <section class="section">
-            <h2>🚀 Featured Projects</h2>
-            
-            <div class="project">
-    <h3>🎯 MLOps-based Sales Leads-Closing Probability System</h3>
-    <p><strong>Production MLOps System: Advanced Sequence Modeling | >80% Forecast Error Reduction</strong></p>
-    <div class="tech-tags">
-        <span class="tech-tag"><strong>Python, Pandas</strong></span>
-        <span class="tech-tag"><strong>NitroDx, Airflow</strong></span>
-        <span class="tech-tag"><strong>MLOps: GCP Vertex AI and BigQuery</strong></span>
-        <span class="tech-tag"><strong>Hidden Markov Model</strong></span>
-        <span class="tech-tag"><strong>Salesforce</strong></span>
-        <span class="tech-tag"><strong>Git, Jupyter Notebook, VS Code</strong></span>
-    </div>
-    <p><strong>💡 Innovation:</strong> <strong>Hidden Markov Models</strong> for 12-month advance signals and temporal pattern recognition</p>
-    <p><strong>📊 Impact:</strong> <strong>15% higher forecast accuracy</strong> → <strong>Better revenue planning</strong></p>
-    <p><strong>🏆 Achievement:</strong> Reduced forecast errors by <strong>>80%</strong></p>
-    <a href="https://sagar61205.github.io/MLOps-Salesforce-Deal-Closure-Probability-System/" class="btn">Explore Case Study →</a>
-</div>
+    .hero {
+      text-align: center;
+      padding: 40px 10px;
+    }
 
-<div class="project">
-    <h3>📊 AI-Powered Sales Forecasting Engine</h3>
-    <p><strong>Time-Series Forecasting System | 5.3% Sales Boost by Deploying Predictive Sales Forecasting Model</strong></p>
-    <div class="tech-tags">
-        <span class="tech-tag"><strong>Python, Pandas</strong></span>
-        <span class="tech-tag"><strong>ARIMA, SARIMAX</strong></span>
-        <span class="tech-tag"><strong>PyCaret</strong></span>
-        <span class="tech-tag"><strong>Time-Series</strong></span>
-        <span class="tech-tag"><strong>Git, Jupyter Notebook, VS Code</strong></span>
-    </div>
-    <p><strong>💡 Innovation:</strong> <strong>ARIMA and SARIMAX</strong> for 12-month forecast utilizing 10 years of sales data</p>
-    <p><strong>📊 Impact:</strong> <strong>5.3% sales boost</strong> → <strong>Optimal resource allocation</strong></p>
-    <p><strong>🏆 Achievement:</strong> <strong>Reduced forecasting error by 60% on average</strong> through better targeting and parameter tuning</p>
-    <a href="https://sagar61205.github.io/Sales-forecast/" class="btn">Explore Case Study →</a>
-</div>
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
 
-<div class="project">
-    <h3>🏥 Clinical Decision Support System</h3>
-    <p><strong>Interpretable AI | 90% Detection Accuracy</strong></p>
-    <div class="tech-tags">
-        <span class="tech-tag"><strong>Python, Pandas</strong></span>
-        <span class="tech-tag"><strong>KNN, XGBoost and Random Forest</strong></span>
-        <span class="tech-tag"><strong>scikit-learn</strong></span>
-        <span class="tech-tag"><strong>Flask</strong></span>
-        <span class="tech-tag"><strong>AWS EC2 Instance</strong></span>
-        <span class="tech-tag"><strong>Imbalanced-Learn: SMOTE</strong></span>
-        <span class="tech-tag"><strong>Healthcare AI</strong></span>
-    </div>
-    <p><strong>💡 Innovation:</strong> <strong>Explainable classifier</strong> with full model transparency</p>
-    <p><strong>📊 Impact:</strong> <strong>40% increase</strong> in diagnostic accuracy against previously used methods</p>
-    <p><strong>🏆 Achievement:</strong> <strong>10% faster, more reliable treatment decisions</strong></p>
-    <a href="https://sagar61205.github.io/Thyroid-detection/" class="btn">Explore Case Study →</a>
-</div>
-        </section>
+    .hero p {
+      font-size: clamp(1rem, 2.5vw, 1.3rem);
+      color: #666;
+      margin-bottom: 20px;
+    }
 
-        <!-- Technical Skills -->
-        <section class="section">
-            <h2>🛠 Technical Excellence</h2>
-            <table>
-                <tr>
-                    <th>Category</th>
-                    <th>Expertise</th>
-                    <th>Tools & Technologies</th>
-                </tr>
-                <tr>
-                    <td><strong>🤖 Machine Learning</strong></td>
-                    <td>Advanced</td>
-                    <td>Scikit-learn, XGBoost, HMM, Time Series, Deep Learning</td>
-                </tr>
-                <tr>
-                    <td><strong>⚙️ MLOps & DevOps</strong></td>
-                    <td>Production</td>
-                    <td>GCP:Vertex AI, AWS:EC2 Instance, Kubernetes, Docker, Airflow, CI/CD</td>
-                </tr>
-                <tr>
-                    <td><strong>📊 Analytics</strong></td>
-                    <td>Expert</td>
-                    <td>Python-Pandas, NumPy, Matplotlib, Seaborn, scikit-learn</td>
-                </tr>
-            </table>
-        </section>
-             
-        <!-- Contact Form -->
-        <section class="section" id="contact">
-            <h2>📧 Get In Touch</h2>
-            
-            <div class="direct-email">
-                <p>Prefer to email directly? <a href="mailto:sagar61205@gmail.com">sagar61205@gmail.com</a></p>
-            </div>
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
 
-            <div class="contact-form">
-                <div class="success-message" id="successMessage">
-                    ✅ Thank you for your message! I'll get back to you soon at sagar61205@gmail.com.
-                </div>
-                <div class="error-message" id="errorMessage">
-                    ❌ There was an error sending your message. Please email me directly at sagar61205@gmail.com
-                </div>
-                
-                <!-- Formspree Form - Replace with your actual Formspree endpoint -->
-                <form id="contactForm" action="https://formspree.io/f/mjvqqgzj" method="POST">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Your Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
-        </section>
+    .badges a img {
+      height: 40px;
+    }
 
-        <footer>
-            <p><strong>🌍 Open to opportunities worldwide</strong> | <strong>💼 Available for full-time & contract roles</strong></p>
-            <p style="margin-top: 20px;">📧 <strong>Email:</strong> <a href="mailto:sagar61205@gmail.com">sagar61205@gmail.com</a></p>
-            <p style="margin-top: 30px;">© 2024 Sagar Virmani | Senior Data Scientist & MLOps Specialist</p>
-        </footer>
-    </div>
+    .section {
+      margin: 40px 0;
+      padding: 0 10px;
+    }
 
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', async function(e) {
-            e.preventDefault();
-            
-            const submitButton = this.querySelector('button[type="submit"]');
-            const originalText = submitButton.textContent;
-            
-            // Show loading state
-            submitButton.textContent = 'Sending...';
-            submitButton.disabled = true;
-            
-            try {
-                const formData = new FormData(this);
-                
-                // Send to Formspree
-                const response = await fetch(this.action, {
-                    method: 'POST',
-                    body: formData,
-                    headers: {
-                        'Accept': 'application/json'
-                    }
-                });
-                
-                if (response.ok) {
-                    // Show success message
-                    document.getElementById('successMessage').style.display = 'block';
-                    document.getElementById('errorMessage').style.display = 'none';
-                    
-                    // Reset form
-                    this.reset();
-                    
-                    // Hide success message after 5 seconds
-                    setTimeout(() => {
-                        document.getElementById('successMessage').style.display = 'none';
-                    }, 5000);
-                } else {
-                    throw new Error('Form submission failed');
-                }
-            } catch (error) {
-                // Show error message
-                document.getElementById('errorMessage').style.display = 'block';
-                document.getElementById('successMessage').style.display = 'none';
-            } finally {
-                // Reset button
-                submitButton.textContent = originalText;
-                submitButton.disabled = false;
-            }
-        });
-    </script>
-</body>
-</html>
+    .section h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+      border-left: 5px solid #667eea;
+      padding-left: 15px;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+    }
+
+    /* Make tables responsive */
+    .table-container {
+      overflow-x: auto;
+      margin: 20px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 600px;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background: #f8f9fa;
+      font-weight: 600;
+    }
+
+    .project {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      border-left: 4px solid #667eea;
+    }
+
+    .project h3 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+      font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    }
+
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 15px 0;
+    }
+
+    .tech-tag {
+      background: #e3f2fd;
+      color: #1976d2;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: transform 0.3s ease;
+      border: none;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .contact-form {
+      background: #f8f9fa;
+      padding: 25px;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    .form-group {
