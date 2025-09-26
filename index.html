@@ -97,6 +97,7 @@
       border: none;
       cursor: pointer;
       font-size: 1rem;
+      display: inline-block;
     }
 
     .btn-secondary {
@@ -110,6 +111,7 @@
       border: 2px solid #667eea;
       cursor: pointer;
       font-size: 1rem;
+      display: inline-block;
     }
 
     .btn-primary:hover, .btn-secondary:hover {
@@ -271,6 +273,22 @@
       margin-top: 40px;
     }
 
+    /* FIXED: Added proper spacing and clearfix */
+    .content-spacing {
+      margin-bottom: 30px;
+    }
+
+    .project-content {
+      margin-bottom: 20px;
+    }
+
+    .project-buttons {
+      margin-top: 20px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
     @media (max-width: 768px) {
       .container {
         padding: 20px;
@@ -289,6 +307,15 @@
 
       .badges a img {
         height: 35px;
+      }
+
+      .project-buttons {
+        flex-direction: column;
+      }
+
+      .project-buttons .btn-primary {
+        width: 100%;
+        margin: 5px 0;
       }
     }
   </style>
@@ -363,9 +390,11 @@
         <p><strong>✅ Language:</strong> English professional proficiency (German learning in progress)</p>
         <p><strong>📍 Preferred Cities:</strong> Berlin • Munich • Hamburg • Frankfurt • Cologne</p>
         
-        <a href="#" class="btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/your-username/germany-relocation'});return false;" style="margin-top: 15px;">
-          🗓️ Discuss Germany Opportunities
-        </a>
+        <div class="project-buttons">
+          <a href="#" class="btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/your-username/germany-relocation'});return false;">
+            🗓️ Discuss Germany Opportunities
+          </a>
+        </div>
       </div>
     </section>
 
@@ -413,59 +442,71 @@
       </div>
     </section>
 
-    <!-- Projects - ORIGINAL CONTENT RESTORED -->
+    <!-- Projects - FIXED BUTTON PLACEMENT -->
     <section class="section">
       <h2>🚀 Featured Projects</h2>
       
       <div class="project">
-        <h3>🎯 MLOps-based Sales Leads-Closing Probability System</h3>
-        <p><strong>Production MLOps System: Advanced Sequence Modeling | >80% Forecast Error Reduction</strong></p>
-        <div class="tech-tags">
-          <span class="tech-tag"><strong>Python, Pandas</strong></span>
-          <span class="tech-tag"><strong>NitroDx, Airflow</strong></span>
-          <span class="tech-tag"><strong>MLOps: GCP Vertex AI and BigQuery</strong></span>
-          <span class="tech-tag"><strong>Hidden Markov Model</strong></span>
-          <span class="tech-tag"><strong>Salesforce</strong></span>
-          <span class="tech-tag"><strong>Git, Jupyter Notebook, VS Code</strong></span>
+        <div class="project-content">
+          <h3>🎯 MLOps-based Sales Leads-Closing Probability System</h3>
+          <p><strong>Production MLOps System: Advanced Sequence Modeling | >80% Forecast Error Reduction</strong></p>
+          <div class="tech-tags">
+            <span class="tech-tag"><strong>Python, Pandas</strong></span>
+            <span class="tech-tag"><strong>NitroDx, Airflow</strong></span>
+            <span class="tech-tag"><strong>MLOps: GCP Vertex AI and BigQuery</strong></span>
+            <span class="tech-tag"><strong>Hidden Markov Model</strong></span>
+            <span class="tech-tag"><strong>Salesforce</strong></span>
+            <span class="tech-tag"><strong>Git, Jupyter Notebook, VS Code</strong></span>
+          </div>
+          <p><strong>💡 Innovation:</strong> <strong>Hidden Markov Models</strong> for 12-month advance signals and temporal pattern recognition</p>
+          <p><strong>📊 Impact:</strong> <strong>15% higher forecast accuracy</strong> → <strong>Better revenue planning</strong></p>
+          <p><strong>🏆 Achievement:</strong> Reduced forecast errors by <strong>>80%</strong></p>
         </div>
-        <p><strong>💡 Innovation:</strong> <strong>Hidden Markov Models</strong> for 12-month advance signals and temporal pattern recognition</p>
-        <p><strong>📊 Impact:</strong> <strong>15% higher forecast accuracy</strong> → <strong>Better revenue planning</strong></p>
-        <p><strong>🏆 Achievement:</strong> Reduced forecast errors by <strong>>80%</strong></p>
-        <a href="https://sagar61205.github.io/MLOps-Salesforce-Deal-Closure-Probability-System/" class="btn-primary">Explore Case Study →</a>
+        <div class="project-buttons">
+          <a href="https://sagar61205.github.io/MLOps-Salesforce-Deal-Closure-Probability-System/" class="btn-primary">Explore Case Study →</a>
+        </div>
       </div>
 
       <div class="project">
-        <h3>📊 AI-Powered Sales Forecasting Engine</h3>
-        <p><strong>Time-Series Forecasting System | 5.3% Sales Boost by Deploying Predictive Sales Forecasting Model</strong></p>
-        <div class="tech-tags">
-          <span class="tech-tag"><strong>Python, Pandas</strong></span>
-          <span class="tech-tag"><strong>ARIMA, SARIMAX</strong></span>
-          <span class="tech-tag"><strong>PyCaret</strong></span>
-          <span class="tech-tag"><strong>Time-Series</strong></span>
-          <span class="tech-tag"><strong>Git, Jupyter Notebook, VS Code</strong></span>
+        <div class="project-content">
+          <h3>📊 AI-Powered Sales Forecasting Engine</h3>
+          <p><strong>Time-Series Forecasting System | 5.3% Sales Boost by Deploying Predictive Sales Forecasting Model</strong></p>
+          <div class="tech-tags">
+            <span class="tech-tag"><strong>Python, Pandas</strong></span>
+            <span class="tech-tag"><strong>ARIMA, SARIMAX</strong></span>
+            <span class="tech-tag"><strong>PyCaret</strong></span>
+            <span class="tech-tag"><strong>Time-Series</strong></span>
+            <span class="tech-tag"><strong>Git, Jupyter Notebook, VS Code</strong></span>
+          </div>
+          <p><strong>💡 Innovation:</strong> <strong>ARIMA and SARIMAX</strong> for 12-month forecast utilizing 10 years of sales data</p>
+          <p><strong>📊 Impact:</strong> <strong>5.3% sales boost</strong> → <strong>Optimal resource allocation</strong></p>
+          <p><strong>🏆 Achievement:</strong> <strong>Reduced forecasting error by 60% on average</strong> through better targeting and parameter tuning</p>
         </div>
-        <p><strong>💡 Innovation:</strong> <strong>ARIMA and SARIMAX</strong> for 12-month forecast utilizing 10 years of sales data</p>
-        <p><strong>📊 Impact:</strong> <strong>5.3% sales boost</strong> → <strong>Optimal resource allocation</strong></p>
-        <p><strong>🏆 Achievement:</strong> <strong>Reduced forecasting error by 60% on average</strong> through better targeting and parameter tuning</p>
-        <a href="https://sagar61205.github.io/Sales-forecast/" class="btn-primary">Explore Case Study →</a>
+        <div class="project-buttons">
+          <a href="https://sagar61205.github.io/Sales-forecast/" class="btn-primary">Explore Case Study →</a>
+        </div>
       </div>
 
       <div class="project">
-        <h3>🏥 Clinical Decision Support System</h3>
-        <p><strong>Interpretable AI | 90% Detection Accuracy</strong></p>
-        <div class="tech-tags">
-          <span class="tech-tag"><strong>Python, Pandas</strong></span>
-          <span class="tech-tag"><strong>KNN, XGBoost and Random Forest</strong></span>
-          <span class="tech-tag"><strong>scikit-learn</strong></span>
-          <span class="tech-tag"><strong>Flask</strong></span>
-          <span class="tech-tag"><strong>AWS EC2 Instance</strong></span>
-          <span class="tech-tag"><strong>Imbalanced-Learn: SMOTE</strong></span>
-          <span class="tech-tag"><strong>Healthcare AI</strong></span>
+        <div class="project-content">
+          <h3>🏥 Clinical Decision Support System</h3>
+          <p><strong>Interpretable AI | 90% Detection Accuracy</strong></p>
+          <div class="tech-tags">
+            <span class="tech-tag"><strong>Python, Pandas</strong></span>
+            <span class="tech-tag"><strong>KNN, XGBoost and Random Forest</strong></span>
+            <span class="tech-tag"><strong>scikit-learn</strong></span>
+            <span class="tech-tag"><strong>Flask</strong></span>
+            <span class="tech-tag"><strong>AWS EC2 Instance</strong></span>
+            <span class="tech-tag"><strong>Imbalanced-Learn: SMOTE</strong></span>
+            <span class="tech-tag"><strong>Healthcare AI</strong></span>
+          </div>
+          <p><strong>💡 Innovation:</strong> <strong>Explainable classifier</strong> with full model transparency</p>
+          <p><strong>📊 Impact:</strong> <strong>40% increase</strong> in diagnostic accuracy against previously used methods</p>
+          <p><strong>🏆 Achievement:</strong> <strong>10% faster, more reliable treatment decisions</strong></p>
         </div>
-        <p><strong>💡 Innovation:</strong> <strong>Explainable classifier</strong> with full model transparency</p>
-        <p><strong>📊 Impact:</strong> <strong>40% increase</strong> in diagnostic accuracy against previously used methods</p>
-        <p><strong>🏆 Achievement:</strong> <strong>10% faster, more reliable treatment decisions</strong></p>
-        <a href="https://sagar61205.github.io/Thyroid-detection/" class="btn-primary">Explore Case Study →</a>
+        <div class="project-buttons">
+          <a href="https://sagar61205.github.io/Thyroid-detection/" class="btn-primary">Explore Case Study →</a>
+        </div>
       </div>
     </section>
 
