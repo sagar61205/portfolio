@@ -273,7 +273,6 @@
       margin-top: 40px;
     }
 
-    /* FIXED: Added proper spacing and clearfix */
     .content-spacing {
       margin-bottom: 30px;
     }
@@ -287,6 +286,26 @@
       display: flex;
       gap: 15px;
       flex-wrap: wrap;
+    }
+
+    .calendly-disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+
+    .calendly-disabled:hover {
+      transform: none !important;
+      box-shadow: none !important;
+    }
+
+    .setup-note {
+      background: #fff3cd;
+      border: 1px solid #ffeaa7;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 0.9rem;
+      color: #856404;
     }
 
     @media (max-width: 768px) {
@@ -327,7 +346,12 @@
   <div class="container">
     <!-- Availability Banner -->
     <div class="availability-banner">
-      🚀 AVAILABLE FOR IMMEDIATE CONTRACTS | 📍 ELIGIBLE FOR GERMAN BLUE CARD | 🌍 OPEN FOR RELOCATION TO GERMANY
+      🚀 AVAILABLE FOR IMMEDIATE CONTRACTS | 📍 ELIGIBLE FOR GERMAN BLUE CARD | 🌍 OPEN TO RELOCATION
+    </div>
+
+    <!-- Setup Instructions -->
+    <div class="setup-note">
+      <strong>⚠️ Calendly Setup Required:</strong> Replace "your-calendly-username" in the JavaScript code below with your actual Calendly username to enable scheduling functionality.
     </div>
 
     <!-- Hero Section -->
@@ -342,7 +366,7 @@
         <a href="https://github.com/sagar61205">
           <img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
         </a>
-        <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/your-username'});return false;">
+        <a href="#" onclick="openCalendly('30min'); return false;">
           <img src="https://img.shields.io/badge/📅_Schedule_Call-00C851?style=for-the-badge" alt="Schedule Call">
         </a>
         <a href="mailto:sagar61205@gmail.com">
@@ -351,7 +375,7 @@
       </div>
 
       <div class="cta-buttons">
-        <a href="#" class="btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/your-username/30min'});return false;">
+        <a href="#" class="btn-primary" onclick="openCalendly('30min'); return false;">
           📅 Schedule Free Consultation
         </a>
         <a href="#contract-services" class="btn-secondary">
@@ -391,7 +415,7 @@
         <p><strong>📍 Preferred Cities:</strong> Berlin • Munich • Hamburg • Frankfurt • Cologne</p>
         
         <div class="project-buttons">
-          <a href="#" class="btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/your-username/germany-relocation'});return false;">
+          <a href="#" class="btn-primary" onclick="openCalendly('germany-relocation'); return false;">
             🗓️ Discuss Germany Opportunities
           </a>
         </div>
@@ -442,13 +466,13 @@
       </div>
     </section>
 
-    <!-- Projects - FIXED BUTTON PLACEMENT -->
+    <!-- Projects -->
     <section class="section">
       <h2>🚀 Featured Projects</h2>
       
       <div class="project">
         <div class="project-content">
-          <h3>🎯 MLOps-based Sales Pipeline Intelligence System</h3>
+          <h3>🎯 MLOps-based Sales Leads-Closing Probability System</h3>
           <p><strong>Production MLOps System: Advanced Sequence Modeling | >80% Forecast Error Reduction</strong></p>
           <div class="tech-tags">
             <span class="tech-tag"><strong>Python, Pandas</strong></span>
@@ -490,7 +514,7 @@
       <div class="project">
         <div class="project-content">
           <h3>🏥 Clinical Decision Support System</h3>
-          <p><strong>Interpretable AI | 40% increase in Detection Accuracy</strong></p>
+          <p><strong>Interpretable AI | 90% Detection Accuracy</strong></p>
           <div class="tech-tags">
             <span class="tech-tag"><strong>Python, Pandas</strong></span>
             <span class="tech-tag"><strong>KNN, XGBoost and Random Forest</strong></span>
@@ -544,7 +568,7 @@
       <h2>📞 Let's Work Together</h2>
       
       <div class="cta-buttons">
-        <a href="#" class="btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/your-username/30min'});return false;">
+        <a href="#" class="btn-primary" onclick="openCalendly('30min'); return false;">
           🗓️ Schedule Free 30-min Call
         </a>
         <a href="mailto:sagar61205@gmail.com?subject=Contract%20Opportunity&body=Hi%20Sagar,%20I'm%20interested%20in%20discussing%20a%20project" class="btn-secondary">
@@ -587,11 +611,33 @@
     <footer>
       <p><strong>🌍 Available Worldwide | 🇩🇪 Germany Blue Card Eligible | 💼 Immediate Contracts</strong></p>
       <p style="margin-top: 20px;">📧 <strong>Email:</strong> <a href="mailto:sagar61205@gmail.com">sagar61205@gmail.com</a></p>
-      <p>📅 <strong>Schedule a call:</strong> <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/your-username'});return false;">Click here to book meeting</a></p>
+      <p>📅 <strong>Schedule a call:</strong> <a href="#" onclick="openCalendly('30min'); return false;">Click here to book meeting</a></p>
     </footer>
   </div>
 
   <script>
+    // Calendly Configuration - REPLACE WITH YOUR ACTUAL CALENDLY USERNAME
+    const CALENDLY_USERNAME = 'your-calendly-username'; // ← CHANGE THIS to your actual Calendly username
+    
+    function openCalendly(eventType = '30min') {
+      const baseUrl = `https://calendly.com/${CALENDLY_USERNAME}`;
+      let url = baseUrl;
+      
+      // Map event types to specific Calendly URLs
+      const eventUrls = {
+        '30min': `${baseUrl}/30min`,
+        'germany-relocation': `${baseUrl}/germany-opportunity`,
+        // Add more event types as needed
+      };
+      
+      url = eventUrls[eventType] || baseUrl;
+      
+      Calendly.initPopupWidget({
+        url: url
+      });
+      return false;
+    }
+
     // Form handling
     const form = document.getElementById('contactForm');
     const successMessage = document.createElement('div');
@@ -638,18 +684,36 @@
         submitBtn.disabled = false;
       }
     });
+
+    // Check if Calendly username is still the placeholder
+    document.addEventListener('DOMContentLoaded', function() {
+      if (CALENDLY_USERNAME === 'your-calendly-username') {
+        const buttons = document.querySelectorAll('[onclick*="openCalendly"]');
+        buttons.forEach(button => {
+          button.classList.add('calendly-disabled');
+          button.onclick = function(e) {
+            e.preventDefault();
+            alert('⚠️ Please set up your Calendly username in the JavaScript code first. Look for "your-calendly-username" and replace it with your actual username.');
+            return false;
+          };
+        });
+      }
+    });
   </script>
 
   <!-- Calendly inline widget -->
   <script type="text/javascript">
     window.onload = function() {
-      Calendly.initBadgeWidget({
-        url: 'https://calendly.com/your-username',
-        text: 'Schedule time with me',
-        color: '#00a2ff',
-        textColor: '#ffffff',
-        branding: true
-      });
+      // Only initialize if username is set
+      if (typeof CALENDLY_USERNAME !== 'undefined' && CALENDLY_USERNAME !== 'sagar61205') {
+        Calendly.initBadgeWidget({
+          url: `https://calendly.com/${sagar61205}`,
+          text: 'Schedule time with me',
+          color: '#00a2ff',
+          textColor: '#ffffff',
+          branding: true
+        });
+      }
     };
   </script>
 </body>
